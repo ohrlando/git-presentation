@@ -144,7 +144,7 @@ Fragmentos da comparação
     $ git commit -m 'Corresão do bug'
     $ git commit --amend -m 'Correção do bug'
 
-#### Desfazendo commits para uma nova branch
+#### Movendo commits para uma nova branch
 
     $ # fez 3 commits na master
     $ git branch topic/wip
@@ -163,6 +163,16 @@ Os commits ainda estão lá. Para remover da cadeia de commits você pode utiliz
     $ git reset <commit>
 
 * O commit ainda pode ser recuperado. para eliminar completamente, utilize `git reflog` + `git gc`
+
+#### Reverter commits
+
+    $ fez o bug
+    $ git commit -a -m 'go, horse. fix it.'
+    $ git commit -a -m 'other good fix'
+
+<img src="./static/dont-panic.jpg" />
+
+    $ git revert <commit>
 
 #### Desfazendo temporariamente
 
