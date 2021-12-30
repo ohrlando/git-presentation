@@ -1,14 +1,14 @@
-# GIT basic to hero
+# GIT basic to hero 
 ## Controle de versão VCS
 - Sistema para **registrar alterações** ao longo do tempo, histórico de mudanças e responsáveis
 - **Experiência controlada** e segura sem grandes esforços
 - Fim do arquivo_tcc_versão_final_(7).doc
 
 ### Sistemas Locais de Controle de Versão
-<img src="./samples/static/vcs_-_modelos_-_controle-versao-local.png" alt="controle de versão local" width="400"/>
+<img src="./static/vcs_-_modelos_-_controle-versao-local.png" alt="controle de versão local" width="400"/>
 
 ### Sistemas Centralizados de Controle de Versão
-<img src="./samples/static/vcs_-_modelos_-_controle-versao-centralizado.png" alt="controle de versão centralizado" width="400"/>
+<img src="./static/vcs_-_modelos_-_controle-versao-centralizado.png" alt="controle de versão centralizado" width="400"/>
 
 - Ambiente **colaborativo**
 - Ambiente controlado: todos sabem quais arquivos estão sendo utilizados
@@ -16,7 +16,7 @@
 - Falha no servidor para todo o projeto
 
 ### Sistemas Distribuídos de Controle de Versão (DVCS)
-<img src="./samples/static/vcs_-_modelos_-_controle-versao-distribuido.png" alt="controle de versão distribuido" width="400"/>
+<img src="./static/vcs_-_modelos_-_controle-versao-distribuido.png" alt="controle de versão distribuido" width="400"/>
 
 - Cada clone é de fato um backup completo
 - **Colaboração concorrente**
